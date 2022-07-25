@@ -4,6 +4,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Home from './Home';
 import Kishore from './Kishore';
 import SukumarBlog from './components/sukumarBlog';
+import Body from './components/body';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Route path="/" element={<Home/>} />
     <Route path="/Shiva" element={<Kishore/>} />
     <Route path='/sukumar' element={<SukumarBlog />} />
+    <Route path="/naidu" element={<Body/>} />
     </Routes>
     </BrowserRouter>
   );

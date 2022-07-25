@@ -1,7 +1,7 @@
 import Header from '../Header';
 import './page.css';
 import './home.scss'
-import { Home } from "./home";
+import { Home } from "./homeblog";
 import { Content } from "./content";
 import Footer from '../Footer';
 

@@ -18,7 +18,7 @@ function Header() {
                 <a href='http://localhost:3000/Shiva'>Kishor</a>
                 <a>Yaswanth</a>
                 <a href='http://localhost:3000/sukumar'>Sukumar</a>
-                <a>Naidu</a>
+                <a href='http://localhost:3000/naidu'>Naidu</a>
                 <a href='http://localhost:3000/Shiva'>Premkumar</a>
                 <a>Nagesh</a>
                 <a>Harshith</a>

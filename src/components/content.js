@@ -31,11 +31,11 @@ const speechBubble = $("#SpeechBubble");
         </div>
         
         <div className='div-travel'>
-         
+           
         <div class="wrapper">
             <div class="candles" id='candlechat'>
 
-                        <div id="SpeechBubble">You idiot Dont blow out my light</div>
+            <div id="SpeechBubbles"><h4>You idiot Dont blow out my light</h4></div>
                 
                 <div class="light__wave"></div>
                 <div class="candle1">
@@ -74,6 +74,7 @@ const speechBubble = $("#SpeechBubble");
     </div>
         </div>
         <div className='div-cont'>
+        
         <div class="container">
         <h2>john doe</h2>
         <div class="avatar">
