@@ -4,23 +4,54 @@ import Footer from './Footer';
 import Header from './Header';
 import Home from './Home';
 import gif1 from './images/gif1.gif'; 
-
+import './krish.css'
+import Avatar from '@mui/material/Avatar'
+import Tab from '@mui/material/Tab'
+import Box from '@mui/material/Box'
+import Stack from "@mui/material/Stack";
+import Button from '@mui/material/Button';
+import {useState} from 'react'
 function Kishore() {
+    
   return (
     <div>
         <Header/>
-        <div className='topline'>In This Blog We can get the Yaswanth Information.</div>
-        <img src={gif1}/>
-        <div className='rightsidecontent'>
-            <div className='rightsidecontentpara'>
+        
+            {/* <header className="Header">
+                <div className='avatar'>
+                  <Stack>  <Avatar  alt="Invalid photo"
+                    
+                     sx={{ width: 80, height: 80 }}/></Stack>
+                     
+                </div>
+                <div className='Title'>
+                    <h1 style={{color:'#a495fa'}}>Welcome</h1>
+                    <div className='Tabs'>
+                     <Tab label="Home" sx={{fontSize:20}} />
+                        <Tab label="About" sx={{fontSize:20}} />
+                        <Tab label="Contact Us" sx={{fontSize:20}} />
+                        <Button variant="outlined" size='small' >Login</Button>
+                    </div>
+                </div>
+            </header> */}
+            <div>
                 <div>
-            <p>	
-Hey, I’m Dan! Obsessed with exploring the world, meeting new people and getting as lost as possible with my camera. I was on the road for 1467 days between 2014 – 2018, taking a chance on changing my career from restaurant manager to capturing the world and somehow it all worked out… I’m now starting a new chapter living in Portugal. </p></div>
-<div>
-<p>I hope this site gives you some inspiration (and handy tips) to go and chase your own adventures. Travel is the best kind of education so go get lost, even if it’s just outside your own doorstep!</p></div>
-</div>
-        </div>
-        <Footer/>
+                    <img src='./krish_images/ilstrn.png'  className='leftimg'/>
+                    <h1 className='head'>What Is In your mind..</h1>
+                    <h2 className='head1'>Share with us without doubting anything</h2>
+                </div>
+                <div className='rightimg'>
+                <img src='./krish_images/img2.png'/>
+                </div>
+                <div>
+                <h1 className='head2'>"You only live once, but if you do it right, once is enough."</h1>
+                </div>
+                <div>
+                    <h1></h1>
+                </div>
+            </div>
+        
+        <div className='footer1'><Footer/></div>
     </div>
     );
 }

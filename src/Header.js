@@ -24,7 +24,7 @@ function Header() {
             <p className='aboutline'>Blogs</p>
             
             <div className='listnames'>
-                <a href='http://localhost:3000/Shiva'>Kishor</a>
+                <a href='http://localhost:3000/krish'>Kishor</a>
                 <a>Yaswanth</a>
                 <a href='http://localhost:3000/sukumar'>Sukumar</a>
                 <a href='http://localhost:3000/naidu'>Naidu</a>
