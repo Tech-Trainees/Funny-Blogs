@@ -77,11 +77,13 @@ function Home() {
 
         <div className='person1' style={{marginLeft:"50px"}}>
             <div className='avatarpic'>
+            <a href='http://localhost:3000/harshit'>
         <Avatar alt="Remy Sharp" src={tesla} sx={{ width: 200, height: 200}} />
+         </a>
         </div>
         <div className='paralines'>
-        
-            <p>Harshith</p>
+          <a href='http://localhost:3000/harshit'><p>Harshith</p></a>
+            
             <p>Today our guest  is Yaswanth  present studing Btech Read More ......</p>
             </div>
         </div>
