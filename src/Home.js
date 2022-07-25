@@ -4,8 +4,8 @@ import Footer from './Footer';
 import Header from './Header';
 import Avatar from '@mui/material/Avatar';
 import tesla from './images/tesla.jpeg';
-import tobi from './images/tobi.gif'
-
+import tobi from './images/tobi.gif';
+import prem from './images/prem.jpg'
 
 function Home() {
   return (
@@ -13,25 +13,28 @@ function Home() {
         <Header/>
         <div className='topline'>In This Home page We can get the brief information on some random topics.</div>
         <div className='information'>
+
         <div className='person1'>
             <div className='avatarpic'>
             <a href='http://localhost:3000/Shiva'><Avatar alt="Remy Sharp" src={tesla} sx={{ width: 200, height: 200 }} /></a>
-        </div>
-        <div className='paralines'>
-        <a href='http://localhost:3000/Shiva'><p>E.Kishore</p></a>
+            </div>
+            <div className='paralines'>
+            <p>E.Kishore</p>
             <p>Today our guest  is E.Kishore  present studing Btech<a href='http://localhost:3000/Shiva'>Read More ......!</a></p>
             </div>
         </div>
-        <div className='person1'>
+
+        <div className='person1' style={{marginLeft:"-57px"}}>
             <div className='avatarpic'>
             <Avatar alt="Remy Sharp" src={tesla} sx={{ width: 200, height: 200 }} />
-        </div>
-        <div className='paralines'>
+            </div>
+            <div className='paralines'>
             <p>CH.Yaswanth</p>
             <p>Today our guest  is Yaswanth  present studing Btech Read More ......</p>
             </div>
         </div>
-        <div className='person1'>
+
+        <div className='person1'  style={{marginLeft:"-60px"}}>
             <div className='avatarpic'>
             <a href='http://localhost:3000/sukumar'><Avatar alt="Remy Sharp" src={tobi} sx={{ width: 200, height: 200 }} /></a>
         </div>
@@ -40,7 +43,8 @@ function Home() {
             <a href='http://localhost:3000/sukumar'>Read More ......!</a>
             </div>
         </div>
-        <div className='person1'>
+
+        <div className='person1' style={{marginLeft:"-60px"}}>
             <div className='avatarpic'>
             <a href='http://localhost:3000/naidu'><Avatar alt="Remy Sharp" src='gif9.gif' sx={{ width: 200, height: 200}} /></a>
         </div>
@@ -49,33 +53,37 @@ function Home() {
             <p>Today our guest  is naidu working as Reactjs developer in Techouts <a href='http://localhost:3000/naidu'> Read More ......</a></p>
             </div>
         </div>
-        <div className='person1' >
+
+        <div style={{marginLeft:"120px"}} className='person1'  >
             <div className='avatarpic'>
-            <a href='http://localhost:3000/Shiva'><Avatar alt="Remy Sharp" src={tesla} sx={{ width: 200, height: 200 }} /></a>
-        </div>
-        <div className='paralines'>
-        <a href='http://localhost:3000/Shiva'><p>Premkumar</p></a>
-            <p>Today our guest  is E.Kishore  present studing Btech <a href='http://localhost:3000/kishore'>Read More ......!</a></p>
+            <a href='http://localhost:3000/prem-blog'><Avatar alt="Remy Sharp" src={prem} sx={{ width: 200, height: 200 }} /></a>
+            </div>
+            <div className='paralines'>
+            <a href='http://localhost:3000/prem-blog'><p>Premkumar</p></a><p style={{color:"black",opacity:"0.5"}}>Author</p>
+            <p>Sample blog about Web Design  <a href='http://localhost:3000/prem-blog'><button>Show</button></a></p>
             </div>
         </div>
-        <div className='person1'>
+
+        <div className='person1' style={{marginLeft:"50px"}}>
             <div className='avatarpic'>
-        <Avatar alt="Remy Sharp" src={tesla} sx={{ width: 200, height: 200}} />
-        </div>
-        <div className='paralines'>
+            <Avatar alt="Remy Sharp" src={tesla} sx={{ width: 200, height: 200}} />
+            </div>
+            <div className='paralines'>
             <p>Nagesh</p>
             <p>Today our guest  is Yaswanth  present studing Btech Read More ......</p>
             </div>
         </div>
-        <div className='person1'>
+
+        <div className='person1' style={{marginLeft:"50px"}}>
             <div className='avatarpic'>
-        <Avatar alt="Remy Sharp" src={tesla} sx={{ width: 200, height: 200}} />
-        </div>
-        <div className='paralines'>
+            <Avatar alt="Remy Sharp" src={tesla} sx={{ width: 200, height: 200}} />
+            </div>
+            <div className='paralines'>
             <p>Harshith</p>
             <p>Today our guest  is Yaswanth  present studing Btech Read More ......</p>
             </div>
         </div>
+      
         </div>
         <Footer/>
     </div>

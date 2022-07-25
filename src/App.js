@@ -6,6 +6,7 @@ import Kishore from './Kishore';
 import SukumarBlog from './components/sukumarBlog';
 import Body from './components/body';
 
+import BlogPrem from './component/blogPrem';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Route path="/Shiva" element={<Kishore/>} />
     <Route path='/sukumar' element={<SukumarBlog />} />
     <Route path="/naidu" element={<Body/>} />
+    <Route path="/prem-blog" element={<BlogPrem/>} />
     </Routes>
     </BrowserRouter>
   );
