@@ -76,9 +76,10 @@ function Home() {
 
         <div className='person1' style={{marginLeft:"50px"}}>
             <div className='avatarpic'>
-            <Avatar alt="Remy Sharp" src={tesla} sx={{ width: 200, height: 200}} />
-            </div>
-            <div className='paralines'>
+        <Avatar alt="Remy Sharp" src={tesla} sx={{ width: 200, height: 200}} />
+        </div>
+        <div className='paralines'>
+        
             <p>Harshith</p>
             <p>Today our guest  is Yaswanth  present studing Btech Read More ......</p>
             </div>
