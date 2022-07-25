@@ -32,11 +32,11 @@ function Home() {
         </div>
         <div className='person1'>
             <div className='avatarpic'>
-            <a href='http://localhost:3000/Shiva'><Avatar alt="Remy Sharp" src={tesla} sx={{ width: 200, height: 200 }} /></a>
+            <a href='http://localhost:3000/sukumar'><Avatar alt="Remy Sharp" src={tesla} sx={{ width: 200, height: 200 }} /></a>
         </div>
         <div className='paralines'>
-        <a href='http://localhost:3000/Shiva'><p>Sukumar</p></a>
-            <p>Today our guest  is E.Kishore  present studing Btech <a href='http://localhost:3000/Shiva'>Read More ......!</a></p>
+        <a href='http://localhost:3000/sukumar'><p>Sukumar</p></a>
+            <a href='http://localhost:3000/sukumar'>Read More ......!</a>
             </div>
         </div>
         <div className='person1'>
