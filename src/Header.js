@@ -29,7 +29,7 @@ function Header() {
                 <a href='http://localhost:3000/sukumar'>Sukumar</a>
                 <a href='http://localhost:3000/naidu'>Naidu</a>
                 <a href='http://localhost:3000/prem-blog'>Premkumar</a>
-                <a>Nagesh</a>
+                <a href='http://localhost:3000/Nagesh'>Nagesh</a>
                 <a href='http://localhost:3000/harshit'>Harshith</a>
             </div>
         </div>

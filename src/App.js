@@ -8,6 +8,7 @@ import Body from './components/body';
 
 import BlogPrem from './component/blogPrem';
 import HarshitApp from './components/HarshitApp';
+import Name from './Blogs/header copy';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/naidu" element={<Body />} />
         <Route path="/prem-blog" element={<BlogPrem />} />
         <Route path="/harshit" element={<HarshitApp />} />
+        <Route path='/Nagesh' element={<Name/>}/>
       </Routes>
     </BrowserRouter>
   );

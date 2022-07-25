@@ -6,6 +6,7 @@ import Avatar from '@mui/material/Avatar';
 import tesla from './images/tesla.jpeg';
 import tobi from './images/tobi.gif'
 import prem from './images/prem.jpg'
+//import Thor from './Thor.jpg'
 // import krish from './krish_images/krish.jpg'
 
 function Home() {
@@ -67,11 +68,11 @@ function Home() {
 
         <div className='person1' style={{marginLeft:"50px"}}>
             <div className='avatarpic'>
-            <Avatar alt="Remy Sharp" src={tesla} sx={{ width: 200, height: 200}} />
+            <a href='http://localhost:3000/Nagesh'><Avatar alt="Remy Sharp" src='./krish_images/Thor.jpg' sx={{ width: 200, height: 200}} /></a>
             </div>
             <div className='paralines'>
             <p>Nagesh</p>
-            <p>Today our guest  is Yaswanth  present studing Btech Read More ......</p>
+            <p>Today our guest  is Nagesh present studing Btech Read More ......</p>
             </div>
         </div>
 
