@@ -4,9 +4,8 @@ import Footer from './Footer';
 import Header from './Header';
 import Avatar from '@mui/material/Avatar';
 import tesla from './images/tesla.jpeg';
-import tobi from './images/tobi.gif';
+import tobi from './images/tobi.gif'
 import prem from './images/prem.jpg'
-// import tobi from './images/tobi.gif'
 // import krish from './krish_images/krish.jpg'
 
 function Home() {
