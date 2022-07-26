@@ -167,7 +167,7 @@ body {
 }
 
 .flip4 {
-    margin-right: 990px;
+    margin-right: 1380px;
     -webkit-animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
     animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
 }
