@@ -77,7 +77,7 @@ const speechBubble = $("#SpeechBubble");
         
         <div class="container">
         <h2>john doe</h2>
-        <div class="avatar">
+        <div class="avatarblog">
           
                 <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/751678/skytsunami.png" alt="Skytsunami" />
         

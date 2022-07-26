@@ -12,9 +12,12 @@
   color: #fff;
   text-align: center;
 }
+.about-clr{
+  color: white ;
+}
 .techoutslogodiv{
   position: relative;
-  height: 80px;
+  height: 110px;
   background: red;
   top: 10px;
 }
@@ -24,9 +27,9 @@
   position: relative;
   margin-left: 50px;
   height: 50px;
-  top: 30px;
+  top: 21px;
   font-family: Arial,Helvetica,sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   font-style: normal;
   letter-spacing: .2em;
@@ -40,6 +43,7 @@
   position: absolute;
   display: none;
   z-index: 1;
+  left: -10px;
 }
 .listnames a{
   position: relative;
@@ -47,6 +51,7 @@
   padding: 12px 15px 5px 1px;
   text-decoration: none;
   color: rgba(0,0,0,.4);
+  top: -15px;
 }
 a:hover{
   color: #222;
@@ -59,7 +64,7 @@ a:hover{
   padding: 5px;
 }
 .join{
-  
+  color: #fff;
   font-family: Arial,Helvetica,sans-serif;
   font-size: 30px;
   font-weight: 800;
@@ -73,7 +78,7 @@ a:hover{
   font-style: normal;
   text-transform: capitalize;
   letter-spacing: 1px;
-
+  color: red;
 }
 .nameinput{
   position: relative;
@@ -100,7 +105,7 @@ a:hover{
   margin-left: 25px;
   margin-top: 20px;
   /* margin: 20px 30px 30px 20px ; */
-  border: 1px solid #222;
+  /* border: 1px solid #222; */
   border-radius: 5px;
   width: 290px;
   box-shadow: 2px 2px 7px rgb(106, 105, 105);
@@ -110,6 +115,9 @@ a:hover{
   width: 100px;
   left: 50px;
   margin-top: 20px;
+}
+.avatarpic:hover{
+  transform: scale(1.1);
 }
 .paralines{
   font-family: Arial,Helvetica,sans-serif;
@@ -131,7 +139,7 @@ a{
   position: relative;
   margin-left: 600px;
   height: 50px;
-  top: 30px;
+  top: 0px;
   font-family: Arial,Helvetica,sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -184,4 +192,25 @@ a:hover{
   border-radius: 50% 0% 0% 50%;
   
   padding: 5.5px;
+}
+.aboutline{
+color: rgba(0,0,0,.4);
+font-size: 14px;
+}
+.aboutline:hover{
+  color: #000;
+}
+.line{
+  color: #ffffff;
+}
+#anchor{
+  color: #000;
+}
+.homepath2{
+  position: relative;
+  top: -5px;
+}
+.personname{
+  position: relative;
+  left: -20px;
 }

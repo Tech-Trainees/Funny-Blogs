@@ -65,7 +65,7 @@
     position: relative;
     height: 80px;
     background: red;
-    top: 10px;
+    top: 0px;
   }
   .about{
     color: rgba(0,0,0,.4);
@@ -165,7 +165,7 @@
   
   }
   a{
-    color: #222;
+    color: rgba(0,0,0,.4);
     cursor: pointer;
     text-decoration: none;
   }

@@ -15,7 +15,7 @@ export default function BlogPrem (){
            <svg viewBox="0 0 860 300">
   <symbol id="s-text">
     <text text-anchor="middle" x="50%" y="80%">WEB DESIGN. </text>
-    <text text-anchor="middle" x="52%" y="80%">WEB DESIGN. </text>
+  
     
   </symbol>
 

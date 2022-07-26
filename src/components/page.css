@@ -43,9 +43,9 @@ a{
   } */
   
   .wrapper {
-    position: absolute;
-    left: 80%;
-    top: 200%;
+    position: relative;
+    left: 74%;
+    top: 71%;
     transform: scale(1.5, 1.5) translate(-50%, -50%);
   }
   
